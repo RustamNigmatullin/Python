@@ -1,0 +1,11 @@
+print('задание 1')
+
+s = input('введите число 1-100: ')
+print(type(s))
+print('превращаем введенный текст в число')
+f= int(s)
+print(type(f))
+print('корень из вашего числа')
+print(round(f ** 0.5, 2))
+print(type(f))
+print('Почему не float?')
